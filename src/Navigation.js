@@ -61,8 +61,8 @@ export default function Navigation(){
                 borderTopColor: '#ccc',
                 borderTopWidth:1
             },
-            activeTintColor:'#000',
-            inactiveTintColor:'#666',
+            activeTintColor:'#106138',
+            inactiveTintColor:'#aeaeae',
         }}
         >
             <Tab.Screen 
