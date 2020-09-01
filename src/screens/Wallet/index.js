@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import { Feather, MaterialCommunityIcons, AntDesign} from '@expo/vector-icons'
-import { Switch } from 'react-native'
+import { Switch, StatusBar } from 'react-native'
 
 import {
      Wrapper,
@@ -48,6 +48,8 @@ export default function Wallet(){
     }
 
     return (
+        <>
+
         <Wrapper>
             <Header 
             colors={
@@ -124,5 +126,7 @@ export default function Wallet(){
             </UseTicketButton>
 
         </Wrapper>
+        </>
+        
     )
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components/native'
 import  {LinearGradient} from 'expo-linear-gradient'
 
 export const Wrapper = styled.ScrollView`
-background:#000;
+background:#f1f1f1;
 flex:1
 `;
 
@@ -69,7 +69,7 @@ margin-left:10px;
 `;
 
 export const UseBalance = styled.View`
-background:#1c1c1e;
+background:#fff;
 height:60px;
 flex-direction:row;
 padding:0 16px;
@@ -78,9 +78,9 @@ justify-content:space-between;
 `;
 
 export const UseBalanceTitle = styled.Text`
-color:white;
+color:#000;
 font-size:16px;
-font-weight:500;
+font-weight:400;
 `;
 
 export const PaymentMethods = styled.View`
@@ -94,7 +94,7 @@ font-size:14px;
 text-transform:uppercase;`;
 
 export const Card = styled.View`
-background:#1e232a;
+background:#fff;
 padding:20px;
 border-radius:8px;
 margin-top:10px;
@@ -111,13 +111,13 @@ margin-right:20px;
 `;
 
 export const CardTitle = styled.Text`
-color:white;
-font-size:18px;
-font-weight:bold;
+color:#000;
+font-size:16px;
+font-weight:600;
 `;
 
 export const CardInfo = styled.Text`
-color:rgba(255,255,255,0.8);
+color:rgba(0,0,0,0.8);
 font-size:12px;
 margin-top:15px;
 `;

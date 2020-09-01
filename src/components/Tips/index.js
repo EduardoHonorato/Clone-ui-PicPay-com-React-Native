@@ -17,25 +17,25 @@ const items = [
     {
         key: String(Math.random()),
         img: img9,
-        title:'Pague suas contas sem sair de casa',
+        title:'Saiba como pagar um boleto',
         bgColor:'#6a0159',
     },
     {
         key: String(Math.random()),
         img: img10,
-        title:'Pague suas contas sem sair de casa',
+        title:'Conheça nossas promoções',
         bgColor:'#4139c8',
     },
     {
         key: String(Math.random()),
         img: img11,
-        title:'Pague suas contas sem sair de casa',
+        title:'Cobre um amigo',
         bgColor:'#172c4a',
     },
     {
         key: String(Math.random()),
         img: img12,
-        title:'Pague suas contas sem sair de casa',
+        title:'Adicione dinheiro no PicPay',
         bgColor:'#ba2f76',
     },
 ];

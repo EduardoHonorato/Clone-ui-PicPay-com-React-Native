@@ -9,7 +9,7 @@ export const Container = styled.ScrollView.attrs(()=>({
         paddingLeft:16,
     },
 }))`
-background: #1e222b;
+background: #f1f1f1;
 height:130px;
 `;
 
@@ -23,7 +23,7 @@ align-items:center;
 export const Img = styled.Image``;
 
 export const Label = styled.Text`
-color:#fff;
+color:#000;
 font-weight:bold;
 margin-top:8px;
 font-size:14px;

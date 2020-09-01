@@ -11,13 +11,13 @@ justify-content:center
 `;
 
 export const Title = styled.Text`
-color:white;
+color:#000;
 font-size:18px;
 font-weight:bold;
 `;
 
 export const  Card = styled.View`
-background:#1e222b;
+background:#f1f1f1;
 border-radius:8px;
 margin-top:10px;
 padding:15px;
@@ -31,7 +31,7 @@ align-items:center;
 export const  Avatar = styled.Image``;
 
 export const  Description = styled.Text`
-color:white;
+color:#000;
 font-size:14px;
 margin-left:15px;
 `;
@@ -45,7 +45,7 @@ margin-top:20px;
 `;
 
 export const  Username = styled.Text`
-color:white;
+color:#000;
 font-size:20px;
 `;
 
@@ -75,7 +75,7 @@ margin:0 10px;
 
 
 export const DateLabel = styled.Text`
-color:white;
+color:#000;
 margin-left:5px;
 `;
 
@@ -89,7 +89,7 @@ flex-direction:row;
 ` ;
 
 export const OptionLabel = styled.Text`
-color:white;
+color:#000;
 font-size:14px;
 margin-left:5px;
 `;

@@ -45,18 +45,18 @@ export default function Activities(){
                     <Details>
                         <Value>R$ 138,00</Value>
                         <Divider/>
-                        <Feather name="lock" color="#fff" size={14}/>
+                        <Feather name="lock" color="#000" size={14}/>
                         <DateLabel>há 3 dias</DateLabel>
                     </Details>
 
                     <Actions>
                         <Option>
-                            <MaterialCommunityIcons name="comment-outline" size={14} color="#fff"/>
+                            <MaterialCommunityIcons name="comment-outline" size={14} color="#000"/>
                             <OptionLabel>0</OptionLabel>
                         </Option>
 
                         <Option>
-                            <AntDesign name="hearto" size={14} color="#fff"/>
+                            <AntDesign name="hearto" size={14} color="#000"/>
                             <OptionLabel>0</OptionLabel>
                         </Option>
                     </Actions>

@@ -10,7 +10,7 @@ export default function PayButton({onPress, focused}){
         <TouchableWithoutFeedback onPress={onPress}>
         <Button
         colors={
-            focused? ['#fff', '#ccc']
+            focused? ['#106138', '#04602f']
             :['#00fc6c', '#00ac4a']
         }
         start={[1, 0.2]}
@@ -18,7 +18,7 @@ export default function PayButton({onPress, focused}){
             <MaterialIcons 
             name="attach-money" 
             size={30} 
-            color={focused? '#000':'#fff'}
+            color={focused? '#fff':'#f1f1f1'}
             />
             <Label focused={focused}>Pagar</Label>
         </Button>

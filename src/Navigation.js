@@ -4,10 +4,13 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from './screens/Home';
 import WalletScreen from './screens/Wallet';
 import PayScreen from './screens/Pay';
+import NotificationsScreen from './screens/Notifications';
+import SettingScreen from './screens/Setting';
 
 import {AntDesign, Ionicons} from '@expo/vector-icons'
 
 import PayButton from '../src/components/PayButton'
+import { StatusBar } from 'react-native'
 
 const Tab = createBottomTabNavigator();
 const icons = {
@@ -31,8 +34,11 @@ const icons = {
 }
 export default function Navigation(){
     return(
+        <>
+        <StatusBar barStyle="default"/>
+
         <Tab.Navigator
-        initialRouteName="Wallet"
+        initialRouteName="Home"
         screenOptions={({ route, navigation })=>({
             tabBarIcon:({color, size, focused})=>{
                 if(route.name == 'Pay'){
@@ -49,12 +55,14 @@ export default function Navigation(){
         })}
         tabBarOptions={{
             style:{
-                backgroundColor: "#131418",
+                backgroundColor: "#fff",
                 borderTopColor: "rgba(255,255,255, 0.2)",
                 paddingBottom:4,
+                borderTopColor: '#ccc',
+                borderTopWidth:1
             },
-            activeTintColor:'#fff',
-            inactiveTintColor:'#92929c',
+            activeTintColor:'#000',
+            inactiveTintColor:'#666',
         }}
         >
             <Tab.Screen 
@@ -81,7 +89,7 @@ export default function Navigation(){
 
             <Tab.Screen 
             name="Notifications" 
-            component={PayScreen}
+            component={NotificationsScreen}
             options={{
                 title:'Notificações',
             }}
@@ -89,11 +97,13 @@ export default function Navigation(){
 
             <Tab.Screen 
             name="Settings" 
-            component={PayScreen}
+            component={SettingScreen}
             options={{
                 title:'Ajustes',
             }}
             />
         </Tab.Navigator>
+        </>
+        
     );
 }

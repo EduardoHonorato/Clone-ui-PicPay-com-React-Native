@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text} from 'react-native'
+import {Text, StatusBar} from 'react-native'
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 
 import { Wrapper, Container, Header, BalanceContainer, BalanceTitle, Balance } from './styles'
@@ -10,6 +10,7 @@ import Banner from '../../components/Banner'
 
 export default function Home(){
     return (
+        <>
         <Wrapper>
         <Container>
             <Header>
@@ -26,5 +27,7 @@ export default function Home(){
             <Banner/>
         </Container>
         </Wrapper>
+        </>
+        
     )
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components/native'
 
 export const Wrapper = styled.SafeAreaView`
-background:#000;
+background:#fff;
 flex:1
 `;
 
@@ -24,7 +24,7 @@ text-align:center;
 `;
 
 export const Balance = styled.Text`
-color:white;
+color:#000;
 font-size:20px;
 text-align:center;
 font-weight:bold;
